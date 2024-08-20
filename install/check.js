@@ -37,5 +37,5 @@ try {
   }
 } catch (err) {
   const summary = err.message.split(/\n/).slice(0, 1);
-  console.log(`sharp: skipping install check: ${summary}`);
+  console.log(`sharp: skipping install check: ${summary}`);2.814.0
 }
